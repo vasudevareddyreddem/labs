@@ -12,16 +12,53 @@
                     <div class="card-body">
                         <ul class="nav nav-tabs" role="tablist">
                             <li class="nav-item">
-                                <a class="nav-link active" data-toggle="tab" href="#tab1">Lab Test</a>
+                                <a class="nav-link active" data-toggle="tab" href="#tab1">Lab Packages</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" data-toggle="tab" href="#tab2">Lab Packages</a>
+                                <a class="nav-link" data-toggle="tab" href="#tab2">Lab Test</a>
                             </li>
                         </ul>
-
+                        
                         <!-- Tab panes -->
                         <div class="tab-content">
+                            
                             <div id="tab1" class="container tab-pane active"><br>
+                                <form class="pad30 form-horizontal" action=" " method="post" id="lp_form">
+                                    <div class="row">
+                                        <div class="form-group col-md-6">
+                                            <label>Test Package Name</label>
+                                            <input type="text" class="form-control" name="lp_tpname" id="lp_tpname" placeholder="Enter Package Name">
+                                        </div>
+                                        <div class="form-group col-md-6">
+                                            <label>Test Names</label>
+                                            <select class="form-control select2" name="lp_test_name" id="lp_test_name" multiple="multiple">
+                                                <option value="0">Select Tests</option>
+                                                <option value="1">Option1</option>
+                                                <option value="2">Option2</option>
+                                                <option value="3">Option3</option>
+                                            </select>
+                                        </div>
+                                        <div class="form-group col-md-6">
+                                            <label>Discount</label>
+                                            <input type="text" class="form-control" name="lp_discount" id="lp_discount" placeholder="Enter Discount">
+                                        </div>
+                                        <div class="form-group col-md-6">
+                                            <label>Amount</label>
+                                            <input type="text" class="form-control" name="lp_amount" id="lp_amount" placeholder="Enter Amount">
+                                        </div>
+                                        <div class="form-group col-md-6">
+                                            <label>Instructions</label>
+                                            <input type="text" class="form-control" name="lp_instr" id="lp_instr" placeholder="Enter Instructions">
+                                        </div>
+                                        <div class="clearfix">&nbsp;</div>
+                                        <div class="col-md-12 text-center">
+                                            <button type="submit" class="btn btn-default">Upload Excel Sheet</button>
+                                            <button type="submit" class="btn btn-primary">Upload</button>
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                            <div id="tab2" class="container tab-pane fade"><br>
                                 <form class="pad30 form-horizontal" action=" " method="post" id="lt_form">
                                     <div class="row">
                                         <div class="form-group col-md-6">
@@ -39,42 +76,6 @@
                                         <div class="form-group col-md-6">
                                             <label>Amount</label>
                                             <input type="text" class="form-control" name="lt_amount" id="lt_amount" placeholder="Enter Amount">
-                                        </div>
-                                        <div class="clearfix">&nbsp;</div>
-                                        <div class="col-md-12 text-center">
-                                            <button type="submit" class="btn btn-default">Upload Excel Sheet</button>
-                                            <button type="submit" class="btn btn-primary">Upload</button>
-                                        </div>
-                                    </div>
-                                </form>
-                            </div>
-                            <div id="tab2" class="container tab-pane fade"><br>
-                                <form class="pad30 form-horizontal" action=" " method="post" id="lp_form">
-                                    <div class="row">
-                                        <div class="form-group col-md-6">
-                                            <label>Test Package Name</label>
-                                            <input type="text" class="form-control" name="lp_tpname" id="lp_tpname" placeholder="Enter Package Name">
-                                        </div>
-                                        <div class="form-group col-md-6">
-                                            <label>Test Names</label>
-                                            <select class="form-control" name="lp_test_name" id="lp_test_name" multiple>
-                                                <option value="" disabled selected>Select Tests</option>
-                                                <option value="1">Option1</option>
-                                                <option value="2">Option2</option>
-                                                <option value="3">Option3</option>
-                                            </select>
-                                        </div>
-                                        <div class="form-group col-md-6">
-                                            <label>Discount</label>
-                                            <input type="text" class="form-control" name="lp_discount" id="lp_discount" placeholder="Enter Discount">
-                                        </div>
-                                        <div class="form-group col-md-6">
-                                            <label>Amount</label>
-                                            <input type="text" class="form-control" name="lp_amount" id="lp_amount" placeholder="Enter Amount">
-                                        </div>
-                                        <div class="form-group col-md-6">
-                                            <label>Instructions</label>
-                                            <input type="text" class="form-control" name="lp_instr" id="lp_instr" placeholder="Enter Instructions">
                                         </div>
                                         <div class="clearfix">&nbsp;</div>
                                         <div class="col-md-12 text-center">

@@ -18,6 +18,9 @@
 	<script src="js/Chart.bundle.js" ></script>
     <script src="js/utils.js" ></script>
     <script src="js/home-data2.js" ></script>
+
+    <script src="js/select2.js"></script>
+    <script src="js/select2-init.js"></script>
     
   </body>
 

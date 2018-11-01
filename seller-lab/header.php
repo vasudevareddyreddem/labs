@@ -27,6 +27,7 @@
     <link href="css/custom.css" rel="stylesheet" type="text/css" />
     <link href="css/responsive.css" rel="stylesheet" type="text/css" />
     <link href="css/theme-color.css" rel="stylesheet" type="text/css" />
+    <link href="css/select2.css" rel="stylesheet" type="text/css" />
     <link href="css/select2-bootstrap.min.css" rel="stylesheet" type="text/css" />
 
 </head>
